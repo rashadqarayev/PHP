@@ -12,4 +12,6 @@ if($a > 5){
 // && - and -- ve demekdir
 // or - ve ya demekdir
 
+// PHP - Switch and case
+
 ?>
