@@ -49,7 +49,15 @@ switch($sehife){
     <a href="index.php?sehife=gallery">Gallery</a> |
     '
 ;
-}
+};
+
+
+// PHP - ? : statements
+
+// Bu zaman echo istifade ede bilmirik. Print islenir
+// ? - if demek, : - else demekdir
+$a = 1;
+($a == 1) ? print "DUZDUR" : print "SEHV";
 
 
 ?>
