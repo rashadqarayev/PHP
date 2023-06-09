@@ -31,10 +31,10 @@ class Car {
 
 $myCar = new Car("Toyota", "Blue");  // Pass arguments for the constructor
 
-$myCar->brand = "Toyota";  // Public property can be accessed directly
-$myCar->startEngine();  // Output: Engine started!
+echo $myCar->brand;
+echo $myCar->repaintCar("yellow")
 
-$myCar->repaintCar("Red");  // Output: Car repainted to Red.
+
 
 
 

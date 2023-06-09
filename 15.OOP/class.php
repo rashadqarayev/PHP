@@ -12,10 +12,6 @@ class Car {
     public function startEngine() {
         echo "Engine started!";
     }
-
-    public function getPrice() {
-        return $this->price;
-    }
 }
 
 
@@ -26,7 +22,9 @@ $myCar = new Car();
 // Obyektin xüsusiyyətlərinə məlumat daxil etmək
 $myCar->brand = "Toyota";
 $myCar->color = "Blue";
-$myCar->startEngine(); // "Engine started!" yazdıracaq
+
+echo $myCar->brand;
+echo $myCar->color;
 
 
 
