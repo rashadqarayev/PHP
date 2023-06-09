@@ -12,12 +12,12 @@ $adminpassword = "12345";
 
 if(@$_COOKIE["girish"] == "ugurlu"){
     echo "Admin Panele xos gelmisiniz!";
-    setcookie("girish","ugurlu",time()-3600);
+    // setcookie("girish","ugurlu",time()-3600);
     // cookie silinir
   
-}else{
+}
+else{
 
- 
 
 
 if($_POST){
@@ -45,3 +45,5 @@ Password <br/>
     
     }    
     }
+
+?>
